@@ -11,6 +11,8 @@ class Login1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
+      backgroundColor: Colors.amber[600],
       body: SingleChildScrollView(
         child: GestureDetector(
           onTap: () {
@@ -19,7 +21,6 @@ class Login1 extends StatelessWidget {
           child: Container(
             height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width,
-            color: Colors.amber[600],
             child: Padding(
               padding: const EdgeInsets.fromLTRB(30, 90, 30, 30),
               child: Stack(
