@@ -1,6 +1,6 @@
 # login_design_challenge
 
-A new Flutter project.
+Login [designs](https://www.uplabs.com/posts/login-ui-kit-kit) are inspired by [creativeuiux99](https://www.uplabs.com/creativeuiux99)
 
 ## Getting Started
 
